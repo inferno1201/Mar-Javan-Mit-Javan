@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Alpha.iml" filepath="$PROJECT_DIR$/Alpha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Basic_Problems.iml" filepath="$PROJECT_DIR$/src/Basic_Problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basic_problems/Basic_problems.iml" filepath="$PROJECT_DIR$/Basic_problems/Basic_problems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Patterns_Advanced/Patterns_Advanced.iml" filepath="$PROJECT_DIR$/Patterns_Advanced/Patterns_Advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting_algorithms/Sorting_algorithms.iml" filepath="$PROJECT_DIR$/Sorting_algorithms/Sorting_algorithms.iml" />
     </modules>
   </component>
 </project>
