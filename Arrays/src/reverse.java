@@ -17,6 +17,7 @@ public class reverse {
            }
     }
     public static void main(String args[]){
+        int array[]={2,4,5,6,7,8,9,10};
         reverseArray(array);
     }
 }
