@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class pairsInArray {
 
     public static void pairs(int arr[]){
@@ -13,7 +15,14 @@ public class pairsInArray {
     }
 
     public static void main(String args[]){
-        int arr[]={2,4,6,8,10};
-        pairs(arr);
+        System.out.println("Enter length of array");
+        Scanner sc= new Scanner(System.in);
+        int len=sc.nextInt();
+        int array[]=new int[len];
+        System.out.println("Enter the elements in array");
+        for(int i=0;i<len;i++){
+            array[i]=sc.nextInt();
+        }
+        pairs(array);
     }
 }

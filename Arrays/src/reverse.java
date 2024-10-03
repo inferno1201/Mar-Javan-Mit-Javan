@@ -1,4 +1,6 @@
-import java.io.*;
+
+import java.util.Scanner;
+
 public class reverse {
 
     public static void reverseArray(int arr[]){
@@ -17,7 +19,15 @@ public class reverse {
            }
     }
     public static void main(String args[]){
-        int array[]={2,4,5,6,7,8,9,10};
+        System.out.println("Enter length of array");
+        Scanner sc= new Scanner(System.in);
+        int len=sc.nextInt();
+        int array[]=new int[len];
+        System.out.println("Enter the elements in array");
+        for(int i=0;i<len;i++){
+               array[i]=sc.nextInt();
+        }
+
         reverseArray(array);
     }
 }

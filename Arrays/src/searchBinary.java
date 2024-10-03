@@ -20,9 +20,15 @@ public class searchBinary {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter the number to searched in array");
         int key=sc.nextInt();
-        int arr[] = {5,10,15,20,25,30,35};
+        System.out.println("Enter length of array");
+        int len=sc.nextInt();
+        int array[]=new int[len];
+        System.out.println("Enter the elements in array");
+        for(int i=0;i<len;i++){
+            array[i]=sc.nextInt();
+        }
 
-        int index= binary(arr,key);
+        int index= binary(array,key);
         if (index == -1)
             System.out.println("not in array");
         else
