@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SubArrays {
     public static void printAllSubarrays(int[] arr) {
         int n = arr.length;
@@ -16,8 +18,15 @@ public class SubArrays {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4,5};
-        printAllSubarrays(arr);
+        System.out.println("Enter length of array");
+        Scanner sc= new Scanner(System.in);
+        int len=sc.nextInt();
+        int array[]=new int[len];
+        System.out.println("Enter the elements in array");
+        for(int i=0;i<len;i++){
+            array[i]=sc.nextInt();
+        }
+        printAllSubarrays(array);
     }
 }
 
